@@ -1,6 +1,6 @@
-# Text Spatializer
+# Text Mapper
 
-Text Spatializer is a Python script for processing images using Optical Character Recognition (OCR) to extract text and bounding box coordinates.
+Text Mapper is a Python script for processing images using Optical Character Recognition (OCR) to extract text and bounding box coordinates.
 
 ## Requirements
 
@@ -14,7 +14,7 @@ Text Spatializer is a Python script for processing images using Optical Characte
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/text-spatializer.git
+   git clone https://github.com/yourusername/text-mapper.git
    ```
 
 2. Install the required Python packages:
@@ -26,7 +26,7 @@ Text Spatializer is a Python script for processing images using Optical Characte
 ## Usage
 
 ```bash
-python text-spatializer.py image_path [-o OUTPUT_FILE]
+python text-mapper.py image_path [-o OUTPUT_FILE]
 ```
 
 - image_path: Path to the input image file.
@@ -35,7 +35,7 @@ python text-spatializer.py image_path [-o OUTPUT_FILE]
 Example:
 
 ```bash
-python text-spatializer.py sample_image.jpg -o output.txt
+python text-mapper.py sample_image.jpg -o output.txt
 ```
 
 #### Output
@@ -43,6 +43,7 @@ python text-spatializer.py sample_image.jpg -o output.txt
 The script outputs the recognized text and bounding box coordinates. If an output file is specified, the information is saved to that file.
 
 ## Acknowledgments
+
 - `pytesseract`: Python interface to Google's Tesseract-OCR Engine.
 - `PIL (Python Imaging Library)`: Python Imaging Library adds image processing capabilities to your Python interpreter.
 - `argparse`: The argparse module makes it easy to write user-friendly command-line interfaces.
