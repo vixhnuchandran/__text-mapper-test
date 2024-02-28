@@ -14,10 +14,14 @@ Text Mapper is a Python script for processing images using Optical Character Rec
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/text-mapper.git
+   git clone https://github.com/vixhnuchandran/text-mapper.git
    ```
 
-2. Install the required Python packages:
+2. Change directory
+   ```bash
+   cd text-mapper
+   ```
+3. Install the required Python packages:
 
    ```bash
    pip install -r requirements.txt
