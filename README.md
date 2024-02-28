@@ -19,7 +19,7 @@ Text Mapper is a Python script for processing images using Optical Character Rec
 
 2. Change directory
    ```bash
-   cd text-mapper
+   cd text-mapper/
    ```
 3. Install the required Python packages:
 
